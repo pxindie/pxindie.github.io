@@ -1,0 +1,113 @@
+div.canvas {
+    font-family: 'Oswald', sans-serif;
+    color: var(--main-white);
+    text-align: center;
+    background-color: var(--main-black);
+    margin: 75px 6% 50px 6%;
+    border-radius: 15px;
+    display: block;
+}
+
+div.canvas > h1,h2{
+    display: block;
+    height: 25px;
+    color: var(--pxWhite);
+    margin-top: 0px;
+    font-size: 35px;
+}
+
+.about-container{
+    padding: 1%;
+}
+
+
+.about > h1, h2{
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.card-info{
+    background-color: var(--main-black);
+    border-radius: 15px;
+    padding: 0px 15px 0px 15px;
+    height: 50%;
+}
+
+
+.card{
+    text-align: left;
+    display: flex;
+    background-color: var(--main-white) !important;
+    justify-content: center;
+
+}
+
+.card-info > ul{
+    padding: 0px;
+    font-size: 18px;
+}
+
+.card-info > ul > li{
+    padding: 0px;
+    font-size: 18px;
+    display: block ruby;
+}
+.card-info > ul > li > p{
+    margin: 5px 0px 5px 0px;
+    font-family: 'Barlow';
+
+}
+
+.card-question{
+    color: rgb(158, 158, 158);
+    font-size: 15px;
+}
+
+.card > img{
+    width: 17%;
+    max-width: 200px;
+    object-fit: cover;
+    white-space: normal;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 100%;
+
+    box-shadow: 0px 0px 10px black;
+    margin-right: 20px;
+}
+
+.info-text-container{
+    padding: 10px;
+}
+
+.info-text-container > p,h2{
+    text-align: left;
+
+}
+
+.info-text-container > p{
+    margin-left: 5%;
+    font-family: 'Barlow';
+
+}
+
+@media only screen and (min-width: 900px) {
+    .about-container{
+        margin: 50px 25% 50px 25% !important;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    .upperInfo > img{
+      display: none;
+    }
+    .social-links >h2{
+        display: none;
+    }
+    .card-canvas{
+        width: 100%;
+    }
+}
